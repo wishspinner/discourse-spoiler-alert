@@ -8,7 +8,7 @@ acceptance("Spoiler Button", {
     clearPopupMenuOptionsCallback();
   }
 });
-
+ 
 test("spoiler button", async assert => {
   const popUpMenu = selectKit(".toolbar-popup-menu-options");
 
